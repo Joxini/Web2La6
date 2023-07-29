@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+}
+
+.logo img {
+  height: 100px;
+}
+.logo-image {
+  background-color: transparent;
+}
+.title {
+  flex: 1; /* Hace que el título tome todo el espacio disponible */
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centra el contenido horizontalmente */
+}
+
+.title h1 {
+  font-size: 24px;
+  margin: 0;
+}

@@ -1,0 +1,29 @@
+.imagen{
+    width: auto;
+    height: 150px;  
+    border-radius: 50%;
+}
+.example-card {
+    max-width: 400px;
+    display: inline-block;
+    margin: 50px;
+    height: 200px;
+    width: 400px;
+}
+.header{
+    height: auto;
+    width: auto; 
+}
+.contenido {
+    color: rgb(2, 2, 2);
+    margin: 0 auto;
+    height: auto;
+}
+.contenido h1,h3{
+    font-size: larger;
+    margin: auto -100px;
+}
+body{
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.308);
+}

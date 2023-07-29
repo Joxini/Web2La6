@@ -1,0 +1,13 @@
+<body>
+  <mat-card class="example-card" *ngFor="let pers of results.results">
+    <mat-card-header class="header">
+      <img class="imagen" [src]="pers.image" alt="" />
+      <mat-card-content class="contenido">
+        <h3>{{ pers.id }}</h3>
+        <h1>{{ pers.name }}</h1>
+        <h3>{{ pers.status }}{{guion}}{{ pers.species }}</h3>
+        <h3>{{ pers.gender }}</h3>
+      </mat-card-content>
+    </mat-card-header>
+  </mat-card>
+</body>
